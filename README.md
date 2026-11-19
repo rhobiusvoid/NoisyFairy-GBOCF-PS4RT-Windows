@@ -47,7 +47,7 @@ See [Player update and volume-key setup](docs/PLAYER_PKG_SETUP.md) for details (
 
 ### Keyboard and mouse
 
-Keyboard and mouse play works out of the box (mouse look is on by default and does not affect controller players). Every key and mouse button can be rebound in the launcher's **Controls** tab or in the in-game menu (**Insert**), and the number keys **1-8** switch weapon slots like the official PC layout. Settings live in `ps4rt_mouse.ini` next to `ps4rt.ini`; **F8** toggles mouse capture and **F9** re-centers the pitch estimate.
+Keyboard and mouse play works out of the box (mouse look is on by default and does not affect controller players). Every key and mouse button can be rebound in the launcher's **Controls** tab or in the in-game menu (**Insert**), and the number keys **1-8** switch weapon slots like the official PC layout. Settings live in `ps4rt_mouse.ini` next to `ps4rt.ini`; **F8** toggles mouse capture.
 
 ### Graphics and controls
 
