@@ -1,0 +1,11 @@
+# Build output and generated state
+build-win/
+out/
+**/__pycache__/
+*.pyc
+# Game data and user state (never commit these)
+*.pkg
+*.prx
+*.sprx
+**/savedata/
+**/user/
