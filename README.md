@@ -16,7 +16,7 @@ PS4RT neither supplies these files nor bypasses the game's volume locks. No PS4 
 
 ## Download and play
 
-1. Download the latest build from the **Releases** page (if it is split in parts, follow [WINDOWS-PORT.md](WINDOWS-PORT.md) to join them) and extract it to a short, writable path such as `C:\CodeFairy\`.
+1. Download **`NoisyFairy-0.7-Beta-cleanbuild.zip`** from the [Releases page](https://github.com/rhobiusvoid/NoisyFairy-GBOCF-PS4RT-Windows/releases) and extract it to a short, writable path such as `C:\CodeFairy\`. (SHA-256: `947c8a37f164d657d0404473251084530d9b79f847543d71f6c1b9beaf0eb3c6`.)
 2. Double-click **`NoisyFairy.bat`** to open the launcher.
 3. On the **Launcher** tab, press **Browse**, pick your extracted `CUSA28763` folder, then press **Play**. The folder is remembered for next time.
 4. If your game is v01.00, a setup window asks for your v01.03 update PKG on the first launch. Install your three volume keys with **Install Volume Keys...** (the button disappears once they are installed), then restart the game.
@@ -26,6 +26,12 @@ That's all you need: no command line required. The **Options** tab has the graph
 **The game should start within a few seconds.** If it sits on a black screen and never shows the Bandai Namco logo, it has stalled: close it and report it on the **Issues** tab with the newest file from that log folder.
 
 Requirements: Windows 10 1803+ (64-bit) and a Vulkan 1.3 GPU. Full guide: [Running on Windows](docs/RUNNING_WINDOWS.md).
+
+### Known issues
+
+- GTX 10-series (Pascal) cards can show weapon and shoulder-part glitches until the camera is close; this will not be fixed, because a fix risks breaking newer GPUs.
+- Rare boot stall: the game restarts itself and usually recovers. If you hit one, open an issue with your GPU, driver and the newest log from `out\CUSA28763\user\log`.
+- Overlay hooks (for example OBS game capture) can change timing and may make stalls more likely.
 
 ### Required v01.03 game version and episodic volume keys
 
