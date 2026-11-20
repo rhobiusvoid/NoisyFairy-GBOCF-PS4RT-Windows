@@ -30,6 +30,7 @@ Requirements: Windows 10 1803+ (64-bit) and a Vulkan 1.3 GPU. Full guide: [Runni
 ### Known issues
 
 - GTX 10-series (Pascal) cards can show weapon and shoulder-part glitches until the camera is close; this will not be fixed, because a fix risks breaking newer GPUs.
+- **Rainbow textures on 4 GB graphics cards:** with 4 GB of video memory (reported on a GTX 1650 Ti) the texture cache can run out of room and drop old GPU-written textures. On screen this is occasional rainbow noise on colour-changing suit textures, usually gone again within moments. It is the price of not crashing with an out-of-memory error, and there is no setting that avoids it on those cards.
 - Rare boot stall: the game restarts itself and usually recovers. If you hit one, open an issue with your GPU, driver and the newest log from `out\CUSA28763\user\log`.
 - Overlay hooks (for example OBS game capture) can change timing and may make stalls more likely.
 
